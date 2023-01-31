@@ -24,10 +24,13 @@ const StarshipDetails = () => {
       <div className="StarshipDetailsPage">
          {getStarshipDetails.name?
         <>
-            <h1>Name:{starshipDetails.name}</h1>
-            <h1>Model:{starshipDetails.model}</h1>
+        <div class="starship-details">
+            <h1>Name: {starshipDetails.name}</h1>
+            <h1 class="model">Model: {starshipDetails.model}</h1>
+            </div>
+            
             <Link to="/">
-                <p>Return</p>
+                <p class='return'>Return</p>
                 </Link>
           </>
           :
