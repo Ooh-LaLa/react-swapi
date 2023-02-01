@@ -26,7 +26,7 @@ const StarshipDetails = () => {
         <>
         <div class="starship-details">
             <h1>Name: {starshipDetails.name}</h1>
-            <h1 class="model">Model: {starshipDetails.model}</h1>
+            <h1 class="model">Model: #{starshipDetails.model}</h1>
             </div>
             
             <Link to="/">
